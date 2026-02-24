@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control
+    namespace="CharCounter"
+    constructor="CharCounter"
+    version="1.0.0"
+    display-name-key="CharCounter"
+    description-key="CharCounter description"
+    control-type="standard">
+
+    <property
+      name="textValue"
+      display-name-key="Text"
+      description-key="Text value"
+      of-type="SingleLine.Text"
+      usage="bound"
+      required="false" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+  </control>
+</manifest>
